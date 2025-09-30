@@ -1,20 +1,18 @@
 ---
 theme: seriph
-background: https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80
+background: https://images.unsplash.com/photo-1613690399151-65ea69478674?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80
 class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
-  ## Web Containers, Docker Containers, Media Containers
-  How to use different types of containers in modern technology
+  ## Web Containers and server in client concept
 drawings:
   persist: false
 css: unocss
 ---
 
-# Containers are Everywhere!
+# Web Containers and server in client concept
 
-CSS Media Containers, Docker Containers, Web Containers?!
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -27,7 +25,7 @@ CSS Media Containers, Docker Containers, Web Containers?!
 
   <a class="text-left ml-4 mt-2" href="https://github.com/sayjeyhi">
     <strong class="text-xl">Jafar Rezaei</strong> <br/>
-    <span class="text-gray-400">Feb 2024</span>
+    <span class="text-gray-400">Oct 2026</span>
   </a>
 </div>
 
@@ -43,147 +41,207 @@ background: linear-gradient(to right, #BECF24 0%, #95E6FF 50%, #CF8377 100%);
 
 ---
 
-# Overview
-
-Understanding different types of containers in modern technology
-
-- 📦 Media Containers
-- 🐳 Docker Containers
-
-## 🌐 Web Containers
-Main focus for this presentation, powered by WebAssembly
-
----
-
-# Why Talk About Containers?
+# About Me
 
 
-- Containers are fundamental to modern technology
-- They solve different problems in unique ways
-- Understanding containers helps make better technical decisions
-- Each type serves a specific purpose in the tech ecosystem
+<span class="text-base text-gray-300">
 
+By day, I'm a Tech Lead at Lyreco, building an e-commerce platform for a big international company.
 
----
+By night, I'm an open-source enthusiast, creating tools, games and libraries.
 
-# Media Containers
-## The Basics
+</span>
 
+<br />
+<br />
+<br />
 
-
-- File formats that bundle multimedia content
-- Package multiple streams into a single file
-- Common examples: MP4, MKV, AVI
-- Essential for digital media distribution
-
+- Jafar Rezaei
+- **GitHub**: [sayjeyhi](https://github.com/sayjeyhi)
+- **Twitter**: [@sayjeyhi](https://twitter.com/sayjeyhi)
+- **LinkedIn**: [Jafar Rezaei](https://www.linkedin.com/in/jafar-rezaei)
+- **[sayjeyhi.com](https://sayjeyhi.com)**
 
 
 ---
+layout: center
+---
 
-# Media Container Structure
+# Containers?
 
-<div grid="~ cols-2 gap-4">
-<div>
-
-
-
-- Video Stream
-- Audio Stream(s)
-- Subtitles
-- Chapters
-- Metadata
-- Timestamps
+What do we have in mind when we say "Web Containers"?
 
 
+<v-click>
+
+<div class="rounded-full flex w-full mt-12 align-center justify-center ">
+<img class="w-80" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTRiY3E4YmR6MnV2bmN1ZmxmOWsxNWY2YWE2eDIwNnFrdWhobjI5eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pPhyAv5t9V8djyRFJH/giphy.gif" />
+</div>
+
+</v-click>
+
+
+---
+layout: center
+---
+
+
+# Web Containers?
+
+Is it related to Container Query (CSS)?
+
+<div class="rounded-full mt-10 flex w-full align-center justify-center ">
+<img class="w-[60%]" src="./css-container.jpg" />
+</div>
+
+
+---
+layout: center
+---
+
+
+# Web Containers?
+
+Is it related to Docker containers?
+
+<div class="rounded-full mt-10 flex w-full align-center justify-center ">
+<img class="w-[60%]" src="./docker-container.png" />
+</div>
+
+---
+layout: center
+---
+
+# Web Containers?
+
+
+<br/>
+
+❌ Container Query (CSS)?
+
+❌ Docker Containers
+
+
+✅ &nbsp;Web Containers
+
+> Main focus for this presentation, powered by WebAssembly
+
+
+---
+layout: center
+---
+
+<pre>
+   <span class="text-blue-400">"Web"</span>                   <span class="text-green-400">"Containers"</span>
+     |                          |
+     v                          v
+because the            because they behave like
+container runs         lightweight, isolated 
+entirely in the        environments <span class="text-green-400">(similar </span>
+<span class="text-blue-300">browser</span>,               <span class="text-green-400">to Docker containers)</span>, 
+<span class="text-blue-300">client-side</span>.           with their <span class="text-green-400">own filesystem</span>, 
+                       <span class="text-green-400">process model</span>, and 
+                       <span class="text-green-400">package manager</span>.
+</pre>
+
+
+---
+layout: center
+---
+
+# What are Web Containers?
+
+<div class="text-xl text-gray-300 leading-relaxed">
+
+a browser-based runtime for executing <span v-mark.box.orange>Node.js</span> applications and operating system commands, entirely inside your browser tab. 
 
 </div>
-<div>
 
-```mermaid {scale: 0.7}
-graph TD
-    A[Media Container] --> B[Video Stream]
-    A --> C[Audio Streams]
-    A --> D[Subtitles]
-    A --> E[Metadata]
-    C --> F[Audio 1]
-    C --> G[Audio 2]
+<div class="text-xs text-gray-500 mt-24">[<a href="https://webcontainers.io/guides/introduction/">official webcontainer.io definition</a>]</div>
+
+---
+
+# Web Containers vs Cloud VM
+What makes it different?
+
+
+<br/>
+
+| #             | WebContainers (client-side)                     | Cloud VMs (legacy)           |
+|---------------|-------------------------------------------------|------------------------------|
+| **UX**        | No latency, faster than localhost, offline      | Network latency, online only |
+| **Cost**      | Free local compute                              | Pay per minute               |
+| **Scale**     | Millions via CDN + client compute               | Limited by server scaling    |
+| **Run model** | In-browser, no server needed                    | Remote VM in cloud           |
+| **Security**  | No miners, malware, phishing                    | Risk of bad actors           |
+| **Start**     | [Starter on StackBlitz](https://stackblitz.com) | VM setup + config required   |
+
+
+---
+
+# Local Demo!
+
+http://localhost:5173/
+
+<iframe src="http://localhost:5173/" width="100%" height="500px"></iframe>
+
+
+---
+
+# Requirements for Web Containers
+
+WebContainer _requires_ [SharedArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer) to function.
+In turn, this requires your website to be [cross-origin isolated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer#security_requirements). Among other things, the root document must be served with:
+
+
+---
+
+
+<div class="rounded-full mt-10 flex w-full align-center justify-center ">
+<img class="w-full" src="./shared-buffer-array.png" />
+</div>
+
+---
+
+# SharedArrayBuffer
+
+<br/> 
+
+```javascript
+const myWorker = new Worker("worker.js");
+
+const sab = new SharedArrayBuffer(1024);
+myWorker.postMessage(sab);
 ```
 
-</div>
-</div>
+---
+
+# Why using SharedArrayBuffer?
+
+WebAssembly shared memory
+WebAssembly.Memory objects can be created with the shared constructor flag. When this flag is set to true, the constructed Memory object can be shared between workers via postMessage(), just like SharedArrayBuffer, and the backing buffer of the Memory object is a SharedArrayBuffer. Therefore, the requirements listed above for sharing a SharedArrayBuffer between workers also apply to sharing a WebAssembly.Memory.
 
 ---
 
-# Media Container Benefits
 
+# COEP and COOP
 
-
-- **Synchronization**: Keep audio and video in perfect sync
-- **Organization**: Multiple streams in one file
-- **Flexibility**: Support various codecs
-- **Portability**: Easy to move and share
-- **Metadata**: Store additional information
-
-
+- Cross-Origin Embedder Policy (COEP)
+- Cross-Origin Opener Policy (COOP)
 
 ---
 
-# Docker Containers
-## Introduction
+# Serve over HTTPS
 
-
-
-- Lightweight, standalone packages
-- Contains everything needed to run an application
-- Revolutionary approach to software deployment
-- Industry standard for containerization
-
-
+Deployed page must be served over HTTPS. This is not necessary when developing locally, as `localhost` is exempt from some browser restrictions, but there is no way around it once you deploy to production.
 
 ---
 
-# Docker Container Architecture
-
-```mermaid {scale: 0.8}
-graph TD
-    A[Application] --> B[Dependencies]
-    B --> C[Container Runtime]
-    C --> D[Host OS]
-    D --> E[Infrastructure]
-```
-
----
-
-# Docker Container Benefits
-
-<div grid="~ cols-2 gap-4">
-<div>
+# Web Container in web container!
 
 
+https://stackblitz.com/edit/webcontainer-fst-demo?file=main.js
 
-- Isolation
-- Portability
-- Consistency
-- Efficiency
-- Scalability
-
-
-
-</div>
-<div>
-
-
-
-- Version Control
-- Quick Deployment
-- Resource Management
-- Easy Updates
-- Security
-
-
-
-</div>
-</div>
 
 ---
 
@@ -275,13 +333,13 @@ graph TD
 - Live collaboration
 
 
-
 </div>
 <div>
 
 
 
 ## Education
+
 - Programming tutorials
 - Interactive learning
 - Instant setup
@@ -296,8 +354,6 @@ graph TD
 
 # Advantages of Web Containers
 
-
-
 - No local setup required
 - Instant access from any device
 - Consistent environment
@@ -309,8 +365,6 @@ graph TD
 ---
 
 # Limitations of Web Containers
-
-
 
 - Browser dependency
 - Performance constraints
@@ -373,46 +427,10 @@ class: text-center
 |Benefit|Unified media|Portability|Instant dev env|
 |Use Case|Media playback|App deployment|Web development|
 
----
-
-# Media Containers Deep Dive
-
-
-
-- **Popular Formats**
-  - MP4: Universal compatibility
-  - MKV: Flexibility and features
-  - AVI: Legacy support
-- **Use Cases**
-  - Streaming services
-  - Digital distribution
-  - Media archiving
-
-
-
----
-
-# Docker Containers Deep Dive
-
-
-
-- **Key Components**
-  - Dockerfile
-  - Images
-  - Containers
-  - Registry
-- **Ecosystem**
-  - Docker Hub
-  - Kubernetes
-  - Docker Compose
-
-
 
 ---
 
 # Web Containers Deep Dive
-
-
 
 - **Architecture**
   - Browser runtime
@@ -424,160 +442,15 @@ class: text-center
   - Git support
   - Package management
 
-
-
----
-
-# Security Considerations
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-
-
-## Media Containers
-- DRM support
-- Content protection
-- Format validation
-
-
-
-</div>
-<div>
-
-
-
-## Docker & Web Containers
-- Isolation
-- Vulnerability scanning
-- Access control
-- Resource limits
-
-
-
-</div>
-</div>
-
----
-
-# Performance Comparison
-
-
-
-- **Media Containers**: Optimized for streaming
-- **Docker Containers**: Near-native performance
-- **Web Containers**: Browser-dependent performance
-- Trade-offs and considerations
-- Use case-specific requirements
-
-
-
 ---
 
 # Future Trends
-
-
 
 - Enhanced browser capabilities
 - Improved WebAssembly performance
 - Hybrid container solutions
 - New use cases emerging
 - Evolution of standards
-
-
-
----
-
-# Best Practices
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-
-
-## Selection
-- Understand requirements
-- Consider limitations
-- Evaluate alternatives
-- Plan for scaling
-
-
-
-</div>
-<div>
-
-
-
-## Implementation
-- Follow standards
-- Monitor performance
-- Regular updates
-- Security first
-
-
-
-</div>
-</div>
-
----
-
-# Integration Strategies
-
-
-
-- Combining container types
-- Hybrid approaches
-- Migration paths
-- Compatibility considerations
-- Performance optimization
-
-
-
----
-
-# Tools and Resources
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-
-
-## Development
-- IDEs
-- CLI tools
-- SDKs
-- Documentation
-
-
-
-</div>
-<div>
-
-
-
-## Monitoring
-- Performance tools
-- Analytics
-- Debugging
-- Logging
-
-
-
-</div>
-</div>
-
----
-
-# Case Studies
-
-
-
-- Successful implementations
-- Lessons learned
-- Common pitfalls
-- Best practices
-- Real-world impact
-
 
 
 ---
@@ -607,6 +480,12 @@ class: text-center
 - Practice projects
 
 
+
+---
+
+# resources
+
+https://hacks.mozilla.org/2017/06/a-cartoon-intro-to-arraybuffers-and-sharedarraybuffers/
 
 ---
 layout: center

@@ -42,3 +42,8 @@ tr:last-child td {
 th{
   background: #1c4f9b;
 }
+
+img {
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
