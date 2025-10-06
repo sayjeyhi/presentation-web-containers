@@ -670,10 +670,16 @@ with web assembly, web containers and shared array buffer, the web is getting go
 ---
 
 <div>
-<img class="w-[70%]" src="./public/docker-wasi-wasm.51.08.png" />
+<img class="w-[70%]" src="./docker-wasi-wasm.51.08.png" />
 </div>
 
 Sometimes someone builds something and people say "It can do that as well" and "It can do the other thing as well"
+
+---
+
+<img src="https://github.com/container2wasm/container2wasm/raw/main/docs/images/ubuntu-wasi-on-browser.png">
+
+https://github.com/container2wasm/container2wasm
 
 ---
 
@@ -699,6 +705,7 @@ https://hacks.mozilla.org/2017/06/a-cartoon-intro-to-arraybuffers-and-sharedarra
 - https://www.youtube.com/watch?v=7553XZ0T6pM
 - https://medium.com/wasm-radar/i-beg-you-please-stop-thinking-webassembly-is-only-for-the-web-a24f502cde78
 - https://www.youtube.com/watch?v=KHy3XIlGIJ8
+- https://hacks.mozilla.org/2019/08/webassembly-interface-types/
 
 ---
 layout: center
