@@ -103,7 +103,7 @@ layout: center
 Is it related to Container Query (CSS)?
 
 <div class="rounded-full mt-10 flex w-full align-center justify-center ">
-<img class="w-[60%]" src="./css-container.jpg" />
+<img class="w-[60%]" src="/css-container.jpg" />
 </div>
 
 
@@ -117,7 +117,7 @@ layout: center
 Is it related to Docker containers?
 
 <div class="rounded-full mt-10 flex w-full align-center justify-center ">
-<img class="w-[60%]" src="./docker-container.png" />
+<img class="w-[60%]" src="/docker-container.png" />
 </div>
 
 ---
@@ -340,7 +340,7 @@ Main Thread                                                    Worker Thread
 
 
 <div class="rounded-full mt-10 flex w-full align-center justify-center ">
-<img class="w-full" src="./shared-buffer-array.png" />
+<img class="w-full" src="/shared-buffer-array.png" />
 </div>
 
 ---
@@ -657,7 +657,7 @@ Or worse:
 # DockerCon 2023
 
 <div>
-<img class="w-[70%]" src="./docker-web-assembly.59.21.png" />
+<img class="w-[70%]" src="/docker-web-assembly.59.21.png" />
 </div>
 
 3rd generation of containers: WebAssembly
@@ -670,7 +670,7 @@ with web assembly, web containers and shared array buffer, the web is getting go
 ---
 
 <div>
-<img class="w-[70%]" src="./docker-wasi-wasm.51.08.png" />
+<img class="w-[70%]" src="/docker-wasi-wasm.51.08.png" />
 </div>
 
 Sometimes someone builds something and people say "It can do that as well" and "It can do the other thing as well"
@@ -687,7 +687,7 @@ https://github.com/container2wasm/container2wasm
 Released September 2025
 
 <div>
-<img class="w-[70%]" src="./wasm3_0.png" />
+<img class="w-[70%]" src="/wasm3_0.png" />
 </div>
 
 ---
