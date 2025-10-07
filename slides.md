@@ -190,7 +190,7 @@ layout: center
 
 # Web Containers?
 
-Is it related to Container Query (CSS)?
+<div class="text-gray-400 flex gap-2 items-center w-full justify-between">Is it related to Container Query (CSS)? <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M3 11h5V9H7v1H4V9H3Zm-2 1h1v-1H1Zm-1-1h1V5H0Zm2-3h1V7H2Zm2 1h3V8H4ZM1 5h1V4H1Zm8 7h1v-1H9ZM1 3h1V2H1ZM0 2h1V1H0Zm2 4h7V5H2Zm6 2h1V7H8ZM4 4h1V3H4ZM3 3h1V2H3Zm7 8h1V5h-1ZM6 4h1V3H6ZM5 3h1V1H5Zm4 2h1V4H9ZM7 2h1V1H7Zm2 1h1V2H9Zm1-1h1V1h-1Zm0 0"/></svg></div>
 
 <div class="rounded-full mt-10 flex w-full align-center justify-center ">
 <img class="w-[60%]" src="/css-container.jpg" />
@@ -203,7 +203,8 @@ layout: center
 
 # Web Containers?
 
-Maybe Media Container?
+<div class="text-gray-400 flex gap-2 items-center w-full justify-between">Maybe Media Container? <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M3 9h1V8h3v1h1V7H3Zm-2 2h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V3H0Zm4 0h3V9H4ZM2 6h1V5H2Zm7 5h1v-1H9ZM4 6h1V5H4ZM1 3h1V2H1Zm2 2h1V4H3Zm3 1h1V5H6Zm4 4h1V8h-1ZM9 7h1V6H9ZM8 6h1V3H8v1H7v1h1ZM2 2h6V1H2Zm8 4h1V3h-1ZM9 3h1V1H9Zm0 0"/></svg></div>
+
 
 <div class="rounded-full mt-10 flex w-full align-center justify-center ">
 <img class="w-[60%]" src="/media-container.jpg" />
@@ -217,7 +218,9 @@ layout: center
 
 # Web Containers?
 
-Is it related to Docker containers?
+<div class="text-gray-400 flex gap-2 items-center w-full justify-between">Is it related to Docker containers? <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M1 12h10V9H1Zm1-1v-1h1v1Zm2 0v-1h3v1ZM1 8h1V5H1ZM0 5h1V2H0Zm3 1h1V3H3ZM1 2h1V1H1Zm3 1h1V2H4Zm0 0"/></svg></div>
+
+
 
 <div class="rounded-full mt-10 flex w-full align-center justify-center ">
 <img class="w-[60%]" src="/docker-container.png" />
@@ -277,12 +280,14 @@ What makes it different?
 <div>
   <img class="rounded-none" src="https://webcontainers.io/img/theme/webcontainer_api-logo-dark-blackwhite.svg"/>
 
-
+<v-click>
   <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
     <svg class="text-green-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
 
     No latency, faster than localhost, offline 
   </div>
+</v-click>
+
 </div>
 
 
@@ -292,12 +297,14 @@ What makes it different?
     <strong class="text-xl text-white!">VMs, Servers</strong>
   </div>
 
-
+<v-click>
   <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
     <svg class="scale-y-[-1] text-red-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
 
     Network latency, online only
   </div>
+</v-click>
+
 </div>
 </div>
 
@@ -318,12 +325,14 @@ What makes it different?
 <div>
   <img class="rounded-none" src="https://webcontainers.io/img/theme/webcontainer_api-logo-dark-blackwhite.svg"/>
 
-
+<v-click>
   <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
     <svg class="text-green-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
 
      Millions via CDN + client compute
   </div>
+</v-click>
+
 </div>
 
 
@@ -333,12 +342,14 @@ What makes it different?
     <strong class="text-xl text-white!">VMs, Servers</strong>
   </div>
 
-
+<v-click>
   <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
     <svg class="scale-y-[-1] text-red-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
 
     Limited by server scaling
   </div>
+</v-click>
+
 </div>
 </div>
 
@@ -356,12 +367,13 @@ What makes it different?
 <div>
   <img class="rounded-none" src="https://webcontainers.io/img/theme/webcontainer_api-logo-dark-blackwhite.svg"/>
 
-
+<v-click>
   <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
     <svg class="text-green-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
 
      No miners, malware, phishing
   </div>
+</v-click>
 </div>
 
 
@@ -371,12 +383,13 @@ What makes it different?
     <strong class="text-xl text-white!">VMs, Servers</strong>
   </div>
 
-
+<v-click>
   <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
     <svg class="scale-y-[-1] text-red-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
 
     Risk of bad actors
   </div>
+</v-click>
 </div>
 </div>
 
@@ -394,12 +407,13 @@ What makes it different?
 <div>
   <img class="rounded-none" src="https://webcontainers.io/img/theme/webcontainer_api-logo-dark-blackwhite.svg"/>
 
-
+<v-click>
   <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
     <svg class="scale-y-[-1] text-red-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
 
      Owned by stackblitz, and a bit blackbox
   </div>
+</v-click>
 </div>
 
 
@@ -409,12 +423,13 @@ What makes it different?
     <strong class="text-xl text-white!">VMs, Servers</strong>
   </div>
 
-
+<v-click>
   <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
     <svg class="text-green-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
 
     Open source, auditable, long term
   </div>
+</v-click>
 </div>
 </div>
 
@@ -434,12 +449,13 @@ What makes it different?
 <div>
   <img class="rounded-none" src="https://webcontainers.io/img/theme/webcontainer_api-logo-dark-blackwhite.svg"/>
 
-
+<v-click>
   <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
     <svg class="text-green-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
 
     Free local compute (paid for commercial use)
   </div>
+</v-click>
 </div>
 
 
@@ -449,12 +465,13 @@ What makes it different?
     <strong class="text-xl text-white!">VMs, Servers</strong>
   </div>
 
-
+<v-click>
   <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
     <svg class="scale-y-[-1] text-red-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
 
     Pay per minute
   </div>
+</v-click>
 </div>
 </div>
 
@@ -532,7 +549,6 @@ ArrayBuffer is just a block of memory
 <div>
 
 - Created by: `new ArrayBuffer(size)`
-- Accessed via: Int8Array, Uint8Array, etc.
 - Used in: WebGL, File APIs, binary protocols, etc.
 - Only one thread can use it.
 
@@ -549,7 +565,10 @@ ArrayBuffer is just a block of memory
 <br/>
 <br/>
 
-👉 A box of memory that only you can touch.
+<div class="flex w-full align-center justify-start gap-2 text-gray-400">
+<svg class="text-yellow-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M10 6H5v1h2v1H5v1h2v1h1V7h2Zm0 0h1V4H7V2H3v1h3v1H4v1h6Zm-9 4h1V9H1ZM0 9h1V5H0Zm2 2h5v-1H2ZM1 5h1V4H1Zm1-1h1V3H2Zm0 0"/></svg>
+A box of memory that only you can touch.
+</div>
 
 ---
 
@@ -583,7 +602,11 @@ holes to view/edit inside the box
 <br/>
 
 
-👉 They let you look into the box and interpret what’s inside
+<div class="flex w-full align-center justify-start gap-2 text-gray-400">
+<svg class="text-yellow-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M10 6H5v1h2v1H5v1h2v1h1V7h2Zm0 0h1V4H7V2H3v1h3v1H4v1h6Zm-9 4h1V9H1ZM0 9h1V5H0Zm2 2h5v-1H2ZM1 5h1V4H1Zm1-1h1V3H2Zm0 0"/></svg>
+They let you look into the box and interpret what’s inside
+</div>
+
 
 ---
 
@@ -680,8 +703,13 @@ Main Thread                                                      Worker Thread
 ---
 
 # Spectre attack
+SharedArrayBuffer was removed from all browsers in 2018
 
 <img src="/spectre-attack.gif" class="w-3/4 mx-auto my-8"/>
+
+<!--
+SharedArrayBuffer was removed from all browsers in 2018 because of the Spectre and Meltdown attacks. The Chrome feature known as Site Isolation allowed it to return, as long as the site requesting to use SharedArrayBuffer is in state known as crossOriginIsolated.
+-->
 
 ---
 
@@ -696,10 +724,13 @@ sub-millisecond accuracy [far finer than Date.now()]
 <div>
 
 - **SharedArrayBuffer** + **Atomics.wait**() (if available)
-- **performance.now**() + **requestAnimationFrame**() 
+
+- **performance.now**() + **requestAnimationFrame**()
+
 - **AudioContext** (Web Audio API)
+
 - **WebGL** rendering times
-- more
+
 
 </div>
 <div class="flex w-full align-center justify-center h-32 text-gray-400">
@@ -709,6 +740,28 @@ sub-millisecond accuracy [far finer than Date.now()]
 
 </div>
 </div>
+
+---
+
+# Cloudflare Workers
+
+
+
+<div class="grid grid-cols-2 gap-4 text-left text-sm text-gray-200">
+<div>
+Cloud flare and side channel attack on workers
+
+<img src="/workers-cloudflare.52.14.png" />
+</div>
+<img src="/theo-fight.41.30.png" />
+
+</div>
+
+<!--
+Quentin and Theo
+
+side channel attack on cloud flare workers
+-->
 
 ---
 
@@ -731,90 +784,229 @@ sub-millisecond accuracy [far finer than Date.now()]
   Use very accurate timers to detect timing between key presses or touches and infer user behavior.
 
 
---- 
+---
 
 # What browsers do to mitigate
 
 <br/>
 
-- **Reduce precision** & add jitter to timers when not isolated:
-  performance.now() is often limited (~1 ms or worse) and randomized; background tabs get even coarser (setTimeout ≥ 1–4 ms+).
+- **Reduce precision** & **add jitter** to timers when not isolated.
+  - performance.now() is often limited (~1 ms or worse) and randomized
+  - background tabs get even coarser (setTimeout ≥ 1–4 ms+).
 
-- Gate the strongest primitives behind cross-origin isolation (COOP+COEP) so sites must opt in knowingly to regain SharedArrayBuffer.
+- **Protect strong primitives** behind cross-origin isolation (COOP+COEP)
+  - sites must opt in knowingly to regain SharedArrayBuffer.
 
-- Site Isolation / Spectre mitigations in engines, partitioned caches, and policy headers to reduce cross-origin information flow.
+
+
+---
+layout: center
+class: text-center
+---
+
+<div class="flex items-center justify-center mb-5 py-3 text-gray-600">
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 10h5V9H6V8H5Zm-5 2h1v-1H0Zm2-1h1v-1H2Zm-1-1h1V5H1Zm2 2h5v-1H3Zm0-5h2V6H3ZM2 5h1V4H2ZM0 5h1V2h1V1H0Zm2-2h1V2H2Zm4 4h2V6H6ZM3 4h5V3H3Zm7 5h1V8h-1ZM9 7h1V5H9ZM8 5h1V4H8ZM5 2h1V1H5Zm5 2h1V3h-1ZM8 2h1V1H8Zm0 0"/></svg>
+</div>
+
+# Demo time!
+
+#### Let's see a Web Container in action...
+
+<!--
+https://node-modules.dev/
+
+https://learn.nuxt.com/en
+
+https://github.com/sayjeyhi/ui.pr.new
+
+https://bolt.new/
+
+https://www.solidjs.com/tutorial
+
+-->
+
+---
+
+# Real world examples
+
+- **[bolt.new](https://bolt.new/)**: Full-stack development environment
+- **frame work tutorials**: [Nuxt](https://learn.nuxt.com/en), [solidjs](https://www.solidjs.com/tutorial), [svelte](https://svelte.dev/tutorial), [angular](https://angular.dev/tutorials/first-app)
+- **online editors**: StackBlitz, GitHub Codespaces
+- **preview envs**: [Browser-based preview envs](https://github.com/sayjeyhi/ui.pr.new)
+- **tools**: [Node Modules check](https://node-modules.dev/)
+- **AI apps**: [otto.ai](https://otto.engineer/)
+
+<svg class="absolute right-20 bottom-20 text-gray-600" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M3 12h5V8H7v1H6V7H5v2H4V8H3Zm1-1v-1h3v1ZM2 8h1V7H2ZM1 7h1V3H1Zm3 0h1V6h1v1h1V5H4ZM2 3h1V2H2Zm6 5h1V7H8ZM3 2h5V1H3Zm6 5h1V3H9ZM8 3h1V2H8Zm0 0"/></svg>
+
+<!--
+https://stackblitz.com/edit/webcontainer-fst-demo?file=main.js
+-->
+
+---
+
+# Getting Started
+How can I start using it?
+
+<div class="flex gap-2 items-center text-gray-400 mt-12">
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M4 12h3v-1H6V6h1V5H4v1h1v5H4Zm-2-1h2v-1H2Zm-2-1h2V9H1V4h1V3H0Zm7 1h2v-1H7ZM2 5h2V4H2Zm0-2h2V2H2Zm7 7h2V3H9v1h1v5H9ZM7 5h2V4H7ZM4 2h3V1H4Zm3 1h2V2H7Zm0 0"/></svg> 
+Installation
+</div>
+
+```bash
+npm i @webcontainer/api
+```
+
+<div class="flex gap-2 items-center text-gray-400 mt-12">
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M0 12h3v-1H1V9H0Zm3-1h1v-1H3ZM1 9h1V8H1Zm3 1h1V9H4ZM2 8h1V7H2Zm3 1h1V8H5ZM3 7h1V6H3Zm3 1h1V7H6ZM4 6h1V5H4Zm3 1h1V6H7ZM5 5h1V4H5Zm1 1h1V5H6Zm2 2h3V6h-1v1H8ZM4 4h1V2h1V1H4Zm3 0h1V3H7Zm1 1h1V4H8ZM6 3h1V2H6Zm3 3h1V5H9ZM8 3h1V2h1V1H8Zm1 1h2V2h-1v1H9Zm0 0"/></svg>
+Start your first WebContainer:
+</div>
+
+```javascript
+import { WebContainer } from '@webcontainer/api';
+
+// Call only once
+const webcontainerInstance = await WebContainer.boot();
+```
 
 ---
 
 
-# COEP and COOP
+# ⚙️ Core WC API
 
-- Cross-Origin Embedder Policy (COEP)
-- Cross-Origin Opener Policy (COOP)
+```javascript
+const wc = await WebContainer.boot()
+await wc.mount({
+  'index.js': { 
+    file: { 
+      contents: 'console.log("hi")' 
+    } 
+  } 
+});
+
+const process = await wc.spawn('node', ['index.js'])
+```
+
+**Main methods on instance**
+- `boot(options?)`
+- `mount(tree, options?)`
+- `spawn(cmd, args?, options?)`
+- `export(path, options?)`
+- `setPreviewScript(src, opts?)`
+- `teardown()`
 
 ---
 
-# Why using SharedArrayBuffer?
+# File System
+```javascript
+await wc.fs.writeFile('/hello.txt', 'Hi WebContainer!')
+const files = await wc.fs.readdir('/')
+```
 
-WebAssembly shared memory
-WebAssembly.Memory objects can be created with the shared constructor flag. When this flag is set to true, the constructed Memory object can be shared between workers via postMessage(), just like SharedArrayBuffer, and the backing buffer of the Memory object is a SharedArrayBuffer. Therefore, the requirements listed above for sharing a SharedArrayBuffer between workers also apply to sharing a WebAssembly.Memory.
+
+<br/>
+<br/>
+
+- `readFile / writeFile / readdir`
+- `mkdir / rm / rename`
+- `watch(path, listener)`
+
+---
+
+# Process control
+
+```javascript
+const p = await wc.spawn('npm', ['run', 'dev'])
+p.output.pipeTo(new WritableStream({ write: console.log }))
+```
+
+<br/>
+<br/>
+
+- `kill()`
+- `resize({ cols, rows })`
+- `exit` — Promise for exit code
+
+---
+layout: center
+class: text-center
+---
+
+# We learned about SharedArrayBuffer
+But building WC also requires `Web Assembly` besides SharedArrayBuffer.
+
+---
+
+# WebAssembly and SAB
+How SAB is used in WebAssembly?
+
+<br/> 
+
+```javascript
+// create shared memory
+const memory = new WebAssembly.Memory({ shared: true, initial: 10, maximum: 100 });
+```
+use it in 2 wasm instances:
+```javascript
+// share it with multiple wasm instances
+const instance1 = await WebAssembly.instantiateStreaming(fetch("mod1.wasm"), { env: { memory } });
+const instance2 = await WebAssembly.instantiateStreaming(fetch("mod2.wasm"), { env: { memory } });
+```
+
+<br/>
+<br/>
+
+
+<div class="flex w-full align-center justify-start gap-2 text-gray-400">
+<svg class="text-yellow-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M10 6H5v1h2v1H5v1h2v1h1V7h2Zm0 0h1V4H7V2H3v1h3v1H4v1h6Zm-9 4h1V9H1ZM0 9h1V5H0Zm2 2h5v-1H2ZM1 5h1V4H1Zm1-1h1V3H2Zm0 0"/></svg>
+Using WASM is possible without SAB, but it can improve concurrency
+</div>
 
 ---
 
 # Quick look at WebAssembly
 Let's see a simple example of WebAssembly in action.
 
-```bash
-source ~/emsdk/emsdk_env.sh
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello World\n");
+    return 0;
+}
 ```
 
-```bash
-emcc -v
-```
+then we compile it to WebAssembly using Emscripten:
 
 ```bash
 emcc hello.c -o hello.html
 ```
 
+and finally we can serve it using Bun:
+
 ```bash
 bunx serve
 ```
 
-
-
----
-
-
-# Web Container in web container!
-
-
-https://stackblitz.com/edit/webcontainer-fst-demo?file=main.js
-
-
----
-
-# Web Containers
-## The New Frontier
-
-
-
-- Run development environments in the browser
-- Powered by WebAssembly
-- Zero local setup required
-- Revolutionary approach to web development
-
+<!--
+Here we used C++ to create a simple "Hello, World!" program and compile it to WebAssembly using Emscripten.
+-->
 
 
 ---
 
 # How Web Containers Work
 
+<br/>
+
 <div class="grid ~ cols-2 gap-4">
 <div>
 
 
-
 ## Core Technologies
+
+<br/>
+
 - WebAssembly (Wasm)
 - Browser APIs
 - Virtualization
@@ -828,6 +1020,9 @@ https://stackblitz.com/edit/webcontainer-fst-demo?file=main.js
 
 
 ## Key Features
+
+<br/>
+
 - In-browser Execution
 - Native-like Performance
 - Secure Sandboxing
@@ -837,31 +1032,6 @@ https://stackblitz.com/edit/webcontainer-fst-demo?file=main.js
 
 </div>
 </div>
-
----
-
-# WebAssembly's Role
-
-
-
-- Enables near-native performance
-- Supports multiple programming languages
-- Provides secure execution environment
-- Bridges native and web applications
-- Powers complex in-browser applications
-
-
-
----
-
-# Real-World Examples
-
-
-
-- **bolt.new**: Full-stack development environment
-- **Figma**: Collaborative design tool
-- **Autodesk Fusion 360**: 3D modeling
-- **Canva**: Browser-based design platform
 
 
 
@@ -921,15 +1091,6 @@ https://stackblitz.com/edit/webcontainer-fst-demo?file=main.js
 - Complex architecture
 
 
-
----
-layout: center
-class: text-center
----
-
-# Demo time!
-
-#### Let's see a Web Container in action...
 
 ---
 
