@@ -22,10 +22,8 @@ and server in client concept
 </div>
 
 <div class="avtar mt-36 rounded-full flex w-full align-center justify-center ">
-  <img class="w-18 h-18 rounded-full grayscale" src="https://avatars.githubusercontent.com/u/6254009?v=4" />
 
   <a class="text-left ml-4 mt-2" href="https://github.com/sayjeyhi">
-    <strong class="text-xl">Jafar Rezaei</strong> <br/>
     <span class="text-gray-400">Oct 2025</span>
   </a>
 </div>
@@ -42,46 +40,128 @@ background: linear-gradient(to right, #BECF24 0%, #95E6FF 50%, #CF8377 100%);
 
 ---
 
-# About Me
+# I'm
+# Jafar Rezaei
 
 
-<span class="text-base text-gray-300">
 
-By day, I'm a Tech Lead at Lyreco, building an e-commerce platform for a big international company.
-
-By night, I'm an open-source enthusiast, creating tools, games and libraries.
-
-</span>
-
-<br />
-<br />
 <br />
 
 <div class="grid grid-cols-2 gap-4 text-left text-sm text-gray-400">
 
 <div>
+<div class="text-base text-gray-300">
 
-- Jafar Rezaei
-- **GitHub**: [sayjeyhi](https://github.com/sayjeyhi)
-- **Twitter**: [@sayjeyhi](https://twitter.com/sayjeyhi)
-- **LinkedIn**: [Jafar Rezaei](https://www.linkedin.com/in/jafar-rezaei)
-- **[sayjeyhi.com](https://sayjeyhi.com)**
+<span class="text-base text-green-400">By day</span>, I'm Squad Lead at Lyreco, e-commerce platform for launching in 25+ countries.
+
+<br/> 
+
+<span class="text-base text-green-400">By night</span>, I'm OSS lover, book writer, 3D enthusiast, game developer.
+
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M3 2H2v1h1Zm0 0h6V1H3Zm-3 8h1V8H0Zm1 1h3v-1H1Zm3 1h6v-1H4ZM1 8h1V3H1Zm3 0h1V7H4ZM3 7h1V5H3Zm2 2h2V8H5Zm5 2h1v-1h-1Zm-1-1h1V8H9ZM5 5h1V4H5Zm2 2h1V6H7ZM6 4h1V3H6Zm2 2h1V5H8Zm2 2h1V3h-1ZM9 3h1V2H9Zm0 0"/></svg>
+
+</div>
+
+<br/>
 
 
 </div>
 <div>
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjdhYWZ2eDM4ZHdzeG5jYXllNGh3ZnMzeWF1d2kwNXo3M3dzMTE0YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JTTAjM197sku8MgrRa/giphy.gif" />
+  <img class="absolute top-10 right-20 w-24 h-24 rounded-full grayscale" src="/openart-video_cf97c9b8_1759827505833.gif" />
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjdhYWZ2eDM4ZHdzeG5jYXllNGh3ZnMzeWF1d2kwNXo3M3dzMTE0YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JTTAjM197sku8MgrRa/giphy.gif" />
 </div>
 </div>
 
 
 ---
 layout: center
+align: center
 ---
 
-# Containers?
 
-What do we have in mind when we say "Web Containers"?
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M4 12h4v-2h2V9h1V6h-1v2H9V6H8V5H7V2H6V1H1v1H0v2h3v1H0v2h3v1H2v1h2V8h1v2h1v1H4Zm0-9V2h1v1Zm0 0"/></svg>
+
+<br/>
+
+
+# WEB CONTAINERS
+
+<v-click>
+<span class="text-gray-400">
+server in client
+</span>
+</v-click>
+
+<!--
+Today we will know about web containers
+
+if you are already familiar with the concept  
+or you ask someone who knows web container they might say it is server in client.
+-->
+
+---
+
+<div class="flex text-center gap-40 flex-row-reverse w-full align-center justify-center h-80 py-3 text-gray-400">
+<div class="w-32">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><!-- Icon from Tabler Icons by Paweł Kuna - https://github.com/tabler/tabler-icons/blob/master/LICENSE --><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v2a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3zm9 13H6a3 3 0 0 1-3-3v-2a3 3 0 0 1 3-3h10.5m-.5 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0m2-3.5V16m0 4v1.5m3.032-5.25l-1.299.75m-3.463 2l-1.3.75m0-3.5l1.3.75m3.463 2l1.3.75M7 8v.01M7 16v.01"/></svg>
+<h2 class="mt-8">Servers</h2>
+</div>
+<div class="w-32">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><!-- Icon from Phosphor by Phosphor Icons - https://github.com/phosphor-icons/core/blob/main/LICENSE --><g fill="currentColor"><path d="M240 86v84a8 8 0 0 1-5.8 7.69L128 208V48l106.2 30.34A8 8 0 0 1 240 86" opacity=".2"/><path d="M236.4 70.65L130.2 40.31a8 8 0 0 0-3.33-.23L21.74 55.1A16.08 16.08 0 0 0 8 70.94v114.12a16.08 16.08 0 0 0 13.74 15.84l105.13 15a8.5 8.5 0 0 0 1.13.1a8 8 0 0 0 2.2-.31l106.2-30.34A16.07 16.07 0 0 0 248 170V86a16.07 16.07 0 0 0-11.6-15.35M96 120H80V62.94l40-5.72v141.56l-40-5.72V136h16a8 8 0 0 0 0-16M24 70.94l40-5.72V120H48a8 8 0 0 0 0 16h16v54.78l-40-5.72Zm112 126.45V58.61L232 86v84Z"/></g></svg>
+<h2 class="mt-8">Containers</h2>
+</div>
+</div>
+
+
+<div class="flex items-center justify-center mt-8 text-blue-400 text-base relative right-[-5px]">
+?
+</div>
+
+<!--
+We should know about containers and servers.
+-->
+
+---
+
+<div class="flex flex-col text-center gap-8 w-full align-center justify-center h-80 py-3 text-gray-400">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><!-- Icon from Phosphor by Phosphor Icons - https://github.com/phosphor-icons/core/blob/main/LICENSE --><g fill="currentColor"><path d="M240 86v84a8 8 0 0 1-5.8 7.69L128 208V48l106.2 30.34A8 8 0 0 1 240 86" opacity=".2"/><path d="M236.4 70.65L130.2 40.31a8 8 0 0 0-3.33-.23L21.74 55.1A16.08 16.08 0 0 0 8 70.94v114.12a16.08 16.08 0 0 0 13.74 15.84l105.13 15a8.5 8.5 0 0 0 1.13.1a8 8 0 0 0 2.2-.31l106.2-30.34A16.07 16.07 0 0 0 248 170V86a16.07 16.07 0 0 0-11.6-15.35M96 120H80V62.94l40-5.72v141.56l-40-5.72V136h16a8 8 0 0 0 0-16M24 70.94l40-5.72V120H48a8 8 0 0 0 0 16h16v54.78l-40-5.72Zm112 126.45V58.61L232 86v84Z"/></g></svg>
+<h2>Container <div class="text-sm mt-2">1950</div></h2>
+
+</div>
+
+<div></div>
+
+<br/>
+
+<v-click>
+
+> Redefined how things moved around the world
+
+</v-click>
+
+<!--
+When shipping containers were introduced in the 1950s, no one thought they were exciting.
+
+They looked like simple metal boxes, but there was more to the story. 
+- Many people saw them as a bad idea
+- worried about their jobs
+- owners hesitated due to the expense 
+
+everyone's attention was on the wrong aspects
+rather than the boxes themselves.
+
+
+
+It wasn’t about making shipping more efficient. It was about redefining how things moved.
+-->
+
+---
+layout: center
+---
+
+# Containers in tech?
+
+What do we mean when we say "Container" OR "Web Containers"?
 
 
 <v-click>
@@ -90,8 +170,18 @@ What do we have in mind when we say "Web Containers"?
 <img class="w-80" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTRiY3E4YmR6MnV2bmN1ZmxmOWsxNWY2YWE2eDIwNnFrdWhobjI5eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pPhyAv5t9V8djyRFJH/giphy.gif" />
 </div>
 
+<div class="text-center mt-2">
+Containers I used but web container? 
+</div>
+
 </v-click>
 
+<!--
+They play a critical role in technology as well.
+and you might be familiar with some of Containers.
+
+but What is web container?
+-->
 
 ---
 layout: center
@@ -104,6 +194,19 @@ Is it related to Container Query (CSS)?
 
 <div class="rounded-full mt-10 flex w-full align-center justify-center ">
 <img class="w-[60%]" src="/css-container.jpg" />
+</div>
+
+
+---
+layout: center
+---
+
+# Web Containers?
+
+Maybe Media Container?
+
+<div class="rounded-full mt-10 flex w-full align-center justify-center ">
+<img class="w-[60%]" src="/media-container.jpg" />
 </div>
 
 
@@ -124,70 +227,240 @@ Is it related to Docker containers?
 layout: center
 ---
 
-# Web Containers?
-
-
-<br/>
-
-❌ Container Query (CSS)?
-
-❌ Docker Containers
-
-
-✅ &nbsp;Web Containers
-
-> Main focus for this presentation, powered by WebAssembly
-
-
----
-layout: center
----
-
+<v-clicks>
 <pre>
-   <span class="text-blue-400">"Web"</span>                   <span class="text-green-400">"Containers"</span>
-     |                          |
-     v                          v
-because the            because they behave like
-container runs         lightweight, isolated 
-entirely in the        environments <span class="text-green-400">(similar </span>
-<span class="text-blue-300">browser</span>,               <span class="text-green-400">to Docker containers)</span>, 
-<span class="text-blue-300">client-side</span>.           with their <span class="text-green-400">own filesystem</span>, 
-                       <span class="text-green-400">process model</span>, and 
-                       <span class="text-green-400">package manager</span>.
+   <span class="text-blue-400">"Web"</span>                +              <span class="text-green-400">"Containers"</span>
 </pre>
 
 
----
-layout: center
----
+<pre>
+     |                                       |
+     v                                       v
+</pre>
 
-# What are Web Containers?
+<pre>
+because the container            they behave like lightweight, isolated 
+runs entirely in the             environments <span class="text-green-400">(similar to Docker containers)</span>, 
+<span class="text-blue-300">browser tab</span> and fully         
+<span class="text-blue-300">client-side</span>.                     <span class="text-green-400">- own boundaries</span>
+                                 <span class="text-green-400">- own filesystem</span>
+                                 <span class="text-green-400">- own process model</span> 
+                              
+</pre>
+
+
+<div>
+<br />
+<br />
 
 <div class="text-xl text-gray-300 leading-relaxed">
 
-a browser-based runtime for executing <span v-mark.box.orange>Node.js</span> applications and operating system commands, entirely inside your browser tab. 
+a browser-based runtime for executing <span v-mark.box.orange>Node.js</span> applications and operating system commands, entirely inside your browser tab.
 
 </div>
 
-<div class="text-xs text-gray-500 mt-24">[<a href="https://webcontainers.io/guides/introduction/">official webcontainer.io definition</a>]</div>
+<div class="text-xs text-gray-500 mt-4">[<a href="https://webcontainers.io/guides/introduction/">official webcontainer.io definition</a>]</div>
+
+</div>
+
+</v-clicks>
+
+
 
 ---
 
-# Web Containers vs Cloud VM
+# WC vs Cloud VM
 What makes it different?
 
+<div class="grid grid-cols-2 mt-12 h-70 gap-4 text-left text-sm text-gray-400 bg-white/10 p-6 rounded-lg">
 
-<br/>
+<div>
+  <img class="rounded-none" src="https://webcontainers.io/img/theme/webcontainer_api-logo-dark-blackwhite.svg"/>
 
-| #             | WebContainers (client-side)                     | Cloud VMs (legacy)           |
-|---------------|-------------------------------------------------|------------------------------|
-| **UX**        | No latency, faster than localhost, offline      | Network latency, online only |
-| **Cost**      | Free local compute                              | Pay per minute               |
-| **Scale**     | Millions via CDN + client compute               | Limited by server scaling    |
-| **Run model** | In-browser, no server needed                    | Remote VM in cloud           |
-| **Security**  | No miners, malware, phishing                    | Risk of bad actors           |
-| **Start**     | [Starter on StackBlitz](https://stackblitz.com) | VM setup + config required   |
 
+  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
+    <svg class="text-green-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
+
+    No latency, faster than localhost, offline 
+  </div>
+</div>
+
+
+<div class="border-l-2 border-dashed border-white/20 pl-8">
+  <div class="flex gap-4 items-center justify-start">
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><!-- Icon from Cyber free icons by Streamline - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M22.5 5.5H.5v6h22zm-4-4h-14l-4 4h22zm1 6v2m-2-2v2m-2-2v2"/><path d="M4.75 7.25L3.5 8.5l1.25 1.25L6 8.5zM22.5 11.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 13.25L3.5 14.5l1.25 1.25L6 14.5zM22.5 17.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 19.25L3.5 20.5l1.25 1.25L6 20.5z"/></g></svg>
+    <strong class="text-xl text-white!">VMs, Servers</strong>
+  </div>
+
+
+  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
+    <svg class="scale-y-[-1] text-red-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
+
+    Network latency, online only
+  </div>
+</div>
+</div>
+
+<div class="flex items-center justify-center mt-8 text-blue-400 text-base relative right-[-5px]">
+[User Experience]
+</div>
+
+
+---
+
+
+
+# WC vs Cloud VM
+What makes it different?
+
+<div class="grid grid-cols-2 mt-12 h-70 gap-4 text-left text-sm text-gray-400 bg-white/10 p-6 rounded-lg">
+
+<div>
+  <img class="rounded-none" src="https://webcontainers.io/img/theme/webcontainer_api-logo-dark-blackwhite.svg"/>
+
+
+  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
+    <svg class="text-green-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
+
+     Millions via CDN + client compute
+  </div>
+</div>
+
+
+<div class="border-l-2 border-dashed border-white/20 pl-8">
+  <div class="flex gap-4 items-center justify-start">
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><!-- Icon from Cyber free icons by Streamline - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M22.5 5.5H.5v6h22zm-4-4h-14l-4 4h22zm1 6v2m-2-2v2m-2-2v2"/><path d="M4.75 7.25L3.5 8.5l1.25 1.25L6 8.5zM22.5 11.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 13.25L3.5 14.5l1.25 1.25L6 14.5zM22.5 17.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 19.25L3.5 20.5l1.25 1.25L6 20.5z"/></g></svg>
+    <strong class="text-xl text-white!">VMs, Servers</strong>
+  </div>
+
+
+  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
+    <svg class="scale-y-[-1] text-red-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
+
+    Limited by server scaling
+  </div>
+</div>
+</div>
+
+<div class="flex items-center justify-center mt-8 text-blue-400 text-base relative right-[-5px]">
+[Scale]
+</div>
+
+---
+
+# WC vs Cloud VM
+What makes it different?
+
+<div class="grid grid-cols-2 mt-12 h-70 gap-4 text-left text-sm text-gray-400 bg-white/10 p-6 rounded-lg">
+
+<div>
+  <img class="rounded-none" src="https://webcontainers.io/img/theme/webcontainer_api-logo-dark-blackwhite.svg"/>
+
+
+  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
+    <svg class="text-green-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
+
+     No miners, malware, phishing
+  </div>
+</div>
+
+
+<div class="border-l-2 border-dashed border-white/20 pl-8">
+  <div class="flex gap-4 items-center justify-start">
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><!-- Icon from Cyber free icons by Streamline - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M22.5 5.5H.5v6h22zm-4-4h-14l-4 4h22zm1 6v2m-2-2v2m-2-2v2"/><path d="M4.75 7.25L3.5 8.5l1.25 1.25L6 8.5zM22.5 11.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 13.25L3.5 14.5l1.25 1.25L6 14.5zM22.5 17.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 19.25L3.5 20.5l1.25 1.25L6 20.5z"/></g></svg>
+    <strong class="text-xl text-white!">VMs, Servers</strong>
+  </div>
+
+
+  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
+    <svg class="scale-y-[-1] text-red-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
+
+    Risk of bad actors
+  </div>
+</div>
+</div>
+
+<div class="flex items-center justify-center mt-8 text-blue-400 text-base relative right-[-5px]">
+[Security]
+</div>
+
+---
+
+# WC vs Cloud VM
+What makes it different?
+
+<div class="grid grid-cols-2 mt-12 h-70 gap-4 text-left text-sm text-gray-400 bg-white/10 p-6 rounded-lg">
+
+<div>
+  <img class="rounded-none" src="https://webcontainers.io/img/theme/webcontainer_api-logo-dark-blackwhite.svg"/>
+
+
+  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
+    <svg class="scale-y-[-1] text-red-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
+
+     Owned by stackblitz, and a bit blackbox
+  </div>
+</div>
+
+
+<div class="border-l-2 border-dashed border-white/20 pl-8">
+  <div class="flex gap-4 items-center justify-start">
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><!-- Icon from Cyber free icons by Streamline - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M22.5 5.5H.5v6h22zm-4-4h-14l-4 4h22zm1 6v2m-2-2v2m-2-2v2"/><path d="M4.75 7.25L3.5 8.5l1.25 1.25L6 8.5zM22.5 11.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 13.25L3.5 14.5l1.25 1.25L6 14.5zM22.5 17.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 19.25L3.5 20.5l1.25 1.25L6 20.5z"/></g></svg>
+    <strong class="text-xl text-white!">VMs, Servers</strong>
+  </div>
+
+
+  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
+    <svg class="text-green-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
+
+    Open source, auditable, long term
+  </div>
+</div>
+</div>
+
+<div class="flex items-center justify-center mt-8 text-blue-400 text-base relative right-[-5px]">
+[Limitations]
+</div>
+
+---
+
+
+
+# WC vs Cloud VM
+What makes it different?
+
+<div class="grid grid-cols-2 mt-12 h-70 gap-4 text-left text-sm text-gray-400 bg-white/10 p-6 rounded-lg">
+
+<div>
+  <img class="rounded-none" src="https://webcontainers.io/img/theme/webcontainer_api-logo-dark-blackwhite.svg"/>
+
+
+  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
+    <svg class="text-green-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
+
+    Free local compute (paid for commercial use)
+  </div>
+</div>
+
+
+<div class="border-l-2 border-dashed border-white/20 pl-8">
+  <div class="flex gap-4 items-center justify-start">
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><!-- Icon from Cyber free icons by Streamline - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M22.5 5.5H.5v6h22zm-4-4h-14l-4 4h22zm1 6v2m-2-2v2m-2-2v2"/><path d="M4.75 7.25L3.5 8.5l1.25 1.25L6 8.5zM22.5 11.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 13.25L3.5 14.5l1.25 1.25L6 14.5zM22.5 17.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 19.25L3.5 20.5l1.25 1.25L6 20.5z"/></g></svg>
+    <strong class="text-xl text-white!">VMs, Servers</strong>
+  </div>
+
+
+  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
+    <svg class="scale-y-[-1] text-red-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
+
+    Pay per minute
+  </div>
+</div>
+</div>
+
+<div class="flex items-center justify-center mt-8 text-blue-400 text-base relative right-[-5px]">
+[Cost Efficiency]
+</div>
 
 ---
 
@@ -200,10 +473,20 @@ http://localhost:5173/
 
 ---
 
-# Requirements for Web Containers
-WebContainer _requires_:
+# WebContainer _requires_:
+2 simple rules to work
+
+<br/>
+<br/>
 
 <v-click>
+
+
+- Deployed page must be served over <span v-mark.box.orange>HTTPS</span>. Not necessary for `localhost` (exempt from some browser restrictions), but required to deploy to production.
+
+<br/>
+<br/>
+
 
 - <span v-mark.box.orange><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer" target="_blank" >SharedArrayBuffer</a></span>. Root document must be served with:
 
@@ -215,10 +498,6 @@ Cross-Origin-Opener-Policy: same-origin
 ```
 
 
-<br/>
-
-- Deployed page must be served over <span v-mark.box.orange>HTTPS</span>. Not necessary for `localhost` (exempt from some browser restrictions), but required to deploy to production.
-
 </v-click>
 
 
@@ -226,7 +505,7 @@ Cross-Origin-Opener-Policy: same-origin
 layout: center
 ---
 
-<div class="flex w-full align-center justify-center h-40 py-3 text-gray-400">
+<div class="flex w-full align-center justify-start ml-10 mb-4 h-40 py-3 text-gray-400">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><!-- Icon from Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE --><path fill="currentColor" d="M19 8h1v1h-1zm1-3h-1v2h1V6h.5c.28 0 .5-.22.5-.5v-2c0-.28-.22-.5-.5-.5H18v1h2zm-3-2h-1v4h1zm-3.5 12.5a2 2 0 1 0 4 0c0-1.11-.89-2-2-2s-2 .9-2 2M17 8h-1v1h1zm5 6h-1c0-1.5-.47-2.87-1.26-4h-2.77c1.22.91 2.03 2.36 2.03 4v2h2v1h-2v3H5v-3H3v-1h2v-2c0-2.76 2.24-5 5-5h4c.34 0 .68.04 1 .1V7.08c-.33-.05-.66-.08-1-.08h-1V5.73A2 2 0 1 0 10 4c0 .74.4 1.39 1 1.73V7h-1c-3.87 0-7 3.13-7 7H2c-.55 0-1 .45-1 1v3c0 .55.45 1 1 1h1v1a2 2 0 0 0 2 2h14c1.11 0 2-.89 2-2v-1h1c.55 0 1-.45 1-1v-3c0-.55-.45-1-1-1m-13.5-.5c-1.1 0-2 .9-2 2s.9 2 2 2s2-.89 2-2s-.89-2-2-2"/></svg>
 </div>
 
@@ -234,7 +513,6 @@ layout: center
 # SharedArrayBuffer?
 We had also other array-like objects in JavaScript?
 
-<br/>
 <br/>
 <br/>
 
@@ -282,13 +560,16 @@ holes to view/edit inside the box
 <div>
 
 ```typescript
-+---------------------------+
-|       ArrayBuffer         |
-|  [ raw bytes of memory ]  |
-+---------------------------+
-        ↑          ↑
-  Int8Array    Float32Array
-  (small lens) (different lens)
+         +----------------------------------+
+         |                                  |
+         |          ArrayBuffer             |
+         |        0101000100111010          |
+         |     [ raw bytes of memory ]      |
+         |                                  |
+         +----------------------------------+
+               ↑                    ↑
+           Int8Array          Float32Array
+         (small lens)       (different lens)
 ```
 
 </div>
@@ -298,7 +579,6 @@ holes to view/edit inside the box
 </div>
 </div>
 
-<br/>
 <br/>
 <br/>
 
@@ -325,29 +605,33 @@ a shared box of bytes
 </div>
 
 <br/>
-<br/>
 
 ```javascript
-Main Thread                                                    Worker Thread
-   |                                                                 |
-   +---------------------- SharedArrayBuffer ------------------------+
-                          [ same memory box ]
+Main Thread                                                       Worker Thread
+   |                      +---------------------+                        |
+   |                      |  SharedArrayBuffer  |                        |
+   +----------------------|    001110110101     |------------------------+
+                          |  [ shared memory ]  |
+                          +---------------------+
 
 ```
 
 ---
 
-
-
-<div class="rounded-full mt-10 flex w-full align-center justify-center ">
-<img class="w-full" src="/shared-buffer-array.png" />
-</div>
-
----
-
 # SharedArrayBuffer
 
-<br/> 
+<div class="grid grid-cols-2 gap-4 text-left text-sm text-gray-400">
+
+
+<img src="/img.png" class="w-full mx-auto my-8"/>
+
+<div>
+<br/>
+
+
+The syntax to create and pass a SharedArrayBuffer to a Web Worker is similar to that of a regular ArrayBuffer:
+
+<br/>
 
 ```javascript
 const myWorker = new Worker("worker.js");
@@ -355,6 +639,110 @@ const myWorker = new Worker("worker.js");
 const sab = new SharedArrayBuffer(1024);
 myWorker.postMessage(sab);
 ```
+
+</div></div>
+
+<!--
+There is a guy standing between our app and memory called JS Engine.
+
+He is a bit transparent and don't notice him managing the memory for us, because he is kind to us (current thread)
+-->
+
+---
+
+```javascript
+
+Main Thread                                                      Worker Thread
+     |                                                                 |
+     |                       (creation / transfer)                     |
+     |<----------------------- request SAB access -------------------->|
+     |                                                                 |
+     |                       +-----------------------+                 |
+     |                       |     JS Engine         |                 |
+     |                       |-----------------------|                 |
+     |                       | Checks:               |                 |
+     |                       |  - COOP: same-origin  |                 |
+     |                       |  - COEP: require-corp |                 |
+     |                       |  => crossOriginIsolated ?               |
+     |                       +-----------------------+                 |
+     |                             /          \                        |
+     |                   allowed (true)      blocked (false)           |
+     |                          /                                      |
+     |                         v                                       |
+     |               +---------------------+                           |
+     |               |  SharedArrayBuffer  |                           |
+     +---------------|    001110110101     |-------postMessage(...)----+
+                     |  [ shared memory ]  |
+                     +---------------------+
+
+```
+
+---
+
+# Spectre attack
+
+<img src="/spectre-attack.gif" class="w-3/4 mx-auto my-8"/>
+
+---
+
+# High-precision timers
+sub-millisecond accuracy [far finer than Date.now()]
+
+<br />
+<br />
+<br />
+
+<div class="grid grid-cols-2 gap-4 text-left text-sm text-gray-400">
+<div>
+
+- **SharedArrayBuffer** + **Atomics.wait**() (if available)
+- **performance.now**() + **requestAnimationFrame**() 
+- **AudioContext** (Web Audio API)
+- **WebGL** rendering times
+- more
+
+</div>
+<div class="flex w-full align-center justify-center h-32 text-gray-400">
+
+<svg xmlns="http://www.w3.org/2000/svg" class="w-40" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M3 11H2v1h1Zm0 0h5v-1h1V9h1V4H9V3H8V2H6V1H5v1H3v1H2v1H1v5h1v1h1Zm5 1h1v-1H8ZM0 4h1V3h1V2H0Zm5 3V3h1v3h2v1Zm5-3h1V2H9v1h1Zm0 0"/></svg>
+
+
+</div>
+</div>
+
+---
+
+# How they attack?
+
+<br/>
+
+- **Cache timing (Spectre/Meltdown)**  
+  Use precise timing to detect how CPU cache behaves and guess secret data.
+
+- **Cross-site leaks (XS-Leaks)**  
+  Measure how long other websites take to respond to learn things like:
+  - If a user is logged in
+  - What content they can access
+
+- **Fingerprinting & tracking**  
+  Use stable timers (like from audio or GPU) to find unique hardware patterns and track devices.
+
+- **Keystroke or touch inference**  
+  Use very accurate timers to detect timing between key presses or touches and infer user behavior.
+
+
+--- 
+
+# What browsers do to mitigate
+
+<br/>
+
+- **Reduce precision** & add jitter to timers when not isolated:
+  performance.now() is often limited (~1 ms or worse) and randomized; background tabs get even coarser (setTimeout ≥ 1–4 ms+).
+
+- Gate the strongest primitives behind cross-origin isolation (COOP+COEP) so sites must opt in knowingly to regain SharedArrayBuffer.
+
+- Site Isolation / Spectre mitigations in engines, partitioned caches, and policy headers to reduce cross-origin information flow.
 
 ---
 
@@ -421,7 +809,7 @@ https://stackblitz.com/edit/webcontainer-fst-demo?file=main.js
 
 # How Web Containers Work
 
-<div grid="~ cols-2 gap-4">
+<div class="grid ~ cols-2 gap-4">
 <div>
 
 
@@ -545,48 +933,11 @@ class: text-center
 
 ---
 
-# Pricing Models
+# Feature environment
 
-<div grid="~ cols-2 gap-4">
-<div>
+Preview review and create PR in the browser
 
-
-
-## Common Models
-- Freemium
-- Subscription
-- Pay-as-you-go
-- Enterprise licensing
-
-
-
-</div>
-<div>
-
-
-
-## Factors
-- Usage volume
-- Features needed
-- Team size
-- Support level
-
-
-
-</div>
-</div>
-
----
-
-# Container Comparison
-
-|Feature|Media Containers|Docker Containers|Web Containers|
-|-------|---------------|-----------------|--------------|
-|Purpose|Content delivery|App deployment|Browser execution|
-|Technology|Codecs|OS virtualization|WebAssembly|
-|Benefit|Unified media|Portability|Instant dev env|
-|Use Case|Media playback|App deployment|Web development|
-
+https://github.com/sayjeyhi/ui.pr.new
 
 ---
 
@@ -597,6 +948,7 @@ class: text-center
   - Virtual file system
   - Network simulation
   - Process management
+
 - **Integration**
   - IDE features
   - Git support
@@ -604,44 +956,8 @@ class: text-center
 
 ---
 
-# Future Trends
-
-- Enhanced browser capabilities
-- Improved WebAssembly performance
-- Hybrid container solutions
-- New use cases emerging
-- Evolution of standards
-
-
----
-
-# Getting Started
-
-
-
-1. Identify your needs
-2. Choose the right container type
-3. Start with simple examples
-4. Gradually add complexity
-5. Learn from the community
-
-
-
----
-
-# Resources & Learning
-
-
-
-- Official documentation
-- Community forums
-- Online courses
-- Books and tutorials
-- Practice projects
-
----
-
 # WASM Beyond the Browser
+How the future might look like?
 
 “Cool, but we’re not doing any browser-based rendering.”
 
@@ -692,6 +1008,19 @@ Released September 2025
 
 ---
 
+# WASM Runtimes
+
+- **[WasmEdge](https://wasmedge.org/)**: A lightweight, high-performance WebAssembly runtime optimized for edge computing.
+  - 100x faster startup compared to Linux containers.
+  - 1/100th application size, with WASM modules often under 20 MB.
+  - 20% faster runtime performance than traditional containerized inference.
+- **[Wassette](https://github.com/microsoft/wassette)**: Microsoft announced WebAssembly 3.0 support in Azure Functions
+- **[Wasmtime](https://github.com/bytecodealliance/wasmtime)**: A standalone runtime for WebAssembly and WASI, built by the Bytecode Alliance.
+- **[Wasmer](https://wasmer.io/)**: A universal WebAssembly runtime that can run WASM modules anywhere.
+- **Mozilla Wasm Agents**: Each Wasm Agent compiles into a WASM binary, and executed directly in the browser’s WASM runtime.
+
+---
+
 # resources
 
 - https://webcontainers.io/
@@ -706,6 +1035,8 @@ https://hacks.mozilla.org/2017/06/a-cartoon-intro-to-arraybuffers-and-sharedarra
 - https://medium.com/wasm-radar/i-beg-you-please-stop-thinking-webassembly-is-only-for-the-web-a24f502cde78
 - https://www.youtube.com/watch?v=KHy3XIlGIJ8
 - https://hacks.mozilla.org/2019/08/webassembly-interface-types/
+- [COEP COOP CORP CORS CORB - CRAP that's a lot of new stuff!](https://scotthelme.co.uk/coop-and-coep/)
+- [Cloudflare workers Performance and timers](https://developers.cloudflare.com/workers/runtime-apis/performance/)
 
 ---
 layout: center
