@@ -56,9 +56,9 @@ background: linear-gradient(to right, #BECF24 0%, #95E6FF 50%, #CF8377 100%);
 
 <br/> 
 
-<span class="text-base text-green-400">By night</span>, I'm OSS lover, book writer, 3D enthusiast, game developer.
+<span class="text-base text-green-400">By night</span>, I'm OSS lover, book writer, 3D enthusiast, game developer, WASM enthusiast, etc.
 
-<svg class="text-gray-500" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M3 2H2v1h1Zm0 0h6V1H3Zm-3 8h1V8H0Zm1 1h3v-1H1Zm3 1h6v-1H4ZM1 8h1V3H1Zm3 0h1V7H4ZM3 7h1V5H3Zm2 2h2V8H5Zm5 2h1v-1h-1Zm-1-1h1V8H9ZM5 5h1V4H5Zm2 2h1V6H7ZM6 4h1V3H6Zm2 2h1V5H8Zm2 2h1V3h-1ZM9 3h1V2H9Zm0 0"/></svg>
+<svg class="text-gray-500 mt-12" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M3 2H2v1h1Zm0 0h6V1H3Zm-3 8h1V8H0Zm1 1h3v-1H1Zm3 1h6v-1H4ZM1 8h1V3H1Zm3 0h1V7H4ZM3 7h1V5H3Zm2 2h2V8H5Zm5 2h1v-1h-1Zm-1-1h1V8H9ZM5 5h1V4H5Zm2 2h1V6H7ZM6 4h1V3H6Zm2 2h1V5H8Zm2 2h1V3h-1ZM9 3h1V2H9Zm0 0"/></svg>
 
 </div>
 
@@ -78,7 +78,6 @@ layout: center
 align: center
 ---
 
-
 <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M4 12h4v-2h2V9h1V6h-1v2H9V6H8V5H7V2H6V1H1v1H0v2h3v1H0v2h3v1H2v1h2V8h1v2h1v1H4Zm0-9V2h1v1Zm0 0"/></svg>
 
 <br/>
@@ -93,10 +92,12 @@ server in client
 </v-click>
 
 <!--
-Today we will know about web containers
+Today we talk about web containers.
+and how they work
 
-if you are already familiar with the concept  
-or you ask someone who knows web container they might say it is server in client.
+what they are used to
+
+and server in client which is almost high level of what happens in WC
 -->
 
 ---
@@ -215,7 +216,6 @@ layout: center
 layout: center
 ---
 
-
 # Web Containers?
 
 <div class="text-gray-400 flex gap-2 items-center w-full justify-between">Is it related to Docker containers? <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M1 12h10V9H1Zm1-1v-1h1v1Zm2 0v-1h3v1ZM1 8h1V5H1ZM0 5h1V2H0Zm3 1h1V3H3ZM1 2h1V1H1Zm3 1h1V2H4Zm0 0"/></svg></div>
@@ -225,6 +225,17 @@ layout: center
 <div class="rounded-full mt-10 flex w-full align-center justify-center ">
 <img class="w-[60%]" src="/docker-container.png" />
 </div>
+
+<!--
+Not exactly but they have some similarities in concept
+
+in fact every container we have in tech is following almost same definition
+
+- Isolated
+- portable
+- lightweight
+- reproducible
+-->
 
 ---
 layout: center
@@ -268,7 +279,16 @@ a browser-based runtime for executing <span v-mark.box.orange>Node.js</span> app
 
 </v-clicks>
 
+<!--
+Lets have an empty black board
+and draw the schema.
 
+Ok
+
+Officical doc
+
+Lets now compare the WC to Cloud VM
+-->
 
 ---
 
@@ -312,6 +332,15 @@ What makes it different?
 [User Experience]
 </div>
 
+<!--
+If you were asked to create a project like AI app creator similar to lovable
+or Bolt.
+
+You might thought about how should I run code in my project.
+
+We had the situation 
+Building react native project creator
+-->
 
 ---
 
@@ -356,6 +385,47 @@ What makes it different?
 <div class="flex items-center justify-center mt-8 text-blue-400 text-base relative right-[-5px]">
 [Scale]
 </div>
+
+---
+
+# WC vs Cloud VM
+What makes it different?
+
+<div class="grid grid-cols-2 mt-12 h-70 gap-4 text-left text-sm text-gray-400 bg-white/10 p-6 rounded-lg">
+
+<div>
+  <img class="rounded-none" src="https://webcontainers.io/img/theme/webcontainer_api-logo-dark-blackwhite.svg"/>
+
+<v-click>
+  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
+    <svg class="scale-y-[-1] text-red-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
+
+     Limited access to local resources
+  </div>
+</v-click>
+</div>
+
+
+<div class="border-l-2 border-dashed border-white/20 pl-8">
+  <div class="flex gap-4 items-center justify-start">
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><!-- Icon from Cyber free icons by Streamline - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M22.5 5.5H.5v6h22zm-4-4h-14l-4 4h22zm1 6v2m-2-2v2m-2-2v2"/><path d="M4.75 7.25L3.5 8.5l1.25 1.25L6 8.5zM22.5 11.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 13.25L3.5 14.5l1.25 1.25L6 14.5zM22.5 17.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 19.25L3.5 20.5l1.25 1.25L6 20.5z"/></g></svg>
+    <strong class="text-xl text-white!">VMs, Servers</strong>
+  </div>
+
+<v-click>
+  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
+    <svg class="text-green-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
+
+    Can be extended by needs
+  </div>
+</v-click>
+</div>
+</div>
+
+<div class="flex items-center justify-center mt-8 text-blue-400 text-base relative right-[-5px]">
+[Power]
+</div>
+
 
 ---
 
@@ -449,48 +519,6 @@ What makes it different?
 
 <v-click>
   <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
-    <svg class="scale-y-[-1] text-red-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
-
-     Limited access to local resources
-  </div>
-</v-click>
-</div>
-
-
-<div class="border-l-2 border-dashed border-white/20 pl-8">
-  <div class="flex gap-4 items-center justify-start">
-    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><!-- Icon from Cyber free icons by Streamline - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M22.5 5.5H.5v6h22zm-4-4h-14l-4 4h22zm1 6v2m-2-2v2m-2-2v2"/><path d="M4.75 7.25L3.5 8.5l1.25 1.25L6 8.5zM22.5 11.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 13.25L3.5 14.5l1.25 1.25L6 14.5zM22.5 17.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 19.25L3.5 20.5l1.25 1.25L6 20.5z"/></g></svg>
-    <strong class="text-xl text-white!">VMs, Servers</strong>
-  </div>
-
-<v-click>
-  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
-    <svg class="text-green-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
-
-    Can be extended by needs
-  </div>
-</v-click>
-</div>
-</div>
-
-<div class="flex items-center justify-center mt-8 text-blue-400 text-base relative right-[-5px]">
-[power]
-</div>
-
----
-
-
-
-# WC vs Cloud VM
-What makes it different?
-
-<div class="grid grid-cols-2 mt-12 h-70 gap-4 text-left text-sm text-gray-400 bg-white/10 p-6 rounded-lg">
-
-<div>
-  <img class="rounded-none" src="https://webcontainers.io/img/theme/webcontainer_api-logo-dark-blackwhite.svg"/>
-
-<v-click>
-  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
     <svg class="text-green-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
 
     Free local compute (paid for commercial use)
@@ -547,7 +575,7 @@ http://localhost:5173/
 
 - <span v-mark.box.orange><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer" target="_blank" >SharedArrayBuffer</a></span>. Root document must be served with:
 
-
+<br/>
 
 ```typescript
 Cross-Origin-Embedder-Policy: require-corp
@@ -650,8 +678,12 @@ They let you look into the box and interpret what’s inside
 
 ---
 
+<img src="/02%2007.webp">
+
+---
+
 # SharedArrayBuffer
-a shared box of bytes
+a shared box of bytes (shared array buffer)
 
 <div class="grid grid-cols-2 gap-4 mt-12">
 <div>
@@ -706,6 +738,10 @@ myWorker.postMessage(sab);
 </div></div>
 
 <!--
+JS engine is really good at memory managment!
+
+Not really good maybe :D
+
 There is a guy standing between our app and memory called JS Engine.
 
 He is a bit transparent and don't notice him managing the memory for us, because he is kind to us (current thread)
