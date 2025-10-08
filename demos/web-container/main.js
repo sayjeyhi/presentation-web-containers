@@ -23,17 +23,43 @@ window.addEventListener('load', async () => {
   startDevServer();
 });
 
+function stripAnsiCodes(str) {
+  return str.replace(
+    // regex to match ANSI escape sequences
+    /\u001B\[([0-9]{1,3}(;[0-9]{1,3})*)?[A-Za-z]/g,
+    ''
+  );
+}
+
 async function installDependencies() {
-  // Install dependencies
+  const outputEl = document.getElementById("output");
+  outputEl.textContent = "";
+
   const installProcess = await webcontainerInstance.spawn('npm', ['install']);
-  installProcess.output.pipeTo(new WritableStream({
-    write(data) {
-      console.log(data);
-    }
-  }))
-  // Wait for install command to exit
+
+  installProcess.output.pipeTo(
+    new WritableStream({
+      write(data) {
+        outputEl.textContent += stripAnsiCodes(data);
+        outputEl.scrollTop = outputEl.scrollHeight;
+      },
+    })
+  );
+
   return installProcess.exit;
 }
+
+// async function installDependencies() {
+//   // Install dependencies
+//   const installProcess = await webcontainerInstance.spawn('npm', ['install']);
+//   installProcess.output.pipeTo(new WritableStream({
+//     write(data) {
+//       console.log(data);
+//     }
+//   }))
+//   // Wait for install command to exit
+//   return installProcess.exit;
+// }
 
 async function startDevServer() {
   // Run `npm run start` to start the Express app

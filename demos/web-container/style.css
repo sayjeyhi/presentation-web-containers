@@ -70,3 +70,13 @@ textarea {
   font-size: 80%;
   text-decoration: underline;
 }
+
+#output {
+    white-space: pre-wrap;
+    font-family: monospace;
+    background: #000;
+    color: #0f0;
+    padding: 8px;
+    height: 300px;
+    overflow-y: auto;
+}

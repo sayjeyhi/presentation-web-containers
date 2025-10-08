@@ -753,6 +753,28 @@ SharedArrayBuffer was removed from all browsers in 2018 because of the Spectre a
 
 ---
 
+# Cloudflare Workers
+
+
+
+<div class="grid grid-cols-2 gap-4 text-left text-sm text-gray-200">
+<div>
+Cloud flare and side channel attack on workers
+
+<img src="/workers-cloudflare.52.14.png" />
+</div>
+<img src="/theo-fight.41.30.png" />
+
+</div>
+
+<!--
+Quentin and Theo
+
+side channel attack on cloud flare workers
+-->
+
+---
+
 # High-precision timers
 sub-millisecond accuracy [far finer than Date.now()]
 
@@ -780,28 +802,6 @@ sub-millisecond accuracy [far finer than Date.now()]
 
 </div>
 </div>
-
----
-
-# Cloudflare Workers
-
-
-
-<div class="grid grid-cols-2 gap-4 text-left text-sm text-gray-200">
-<div>
-Cloud flare and side channel attack on workers
-
-<img src="/workers-cloudflare.52.14.png" />
-</div>
-<img src="/theo-fight.41.30.png" />
-
-</div>
-
-<!--
-Quentin and Theo
-
-side channel attack on cloud flare workers
--->
 
 ---
 
@@ -1251,6 +1251,9 @@ class: text-center
 Reach me out if you have any question.
 
 <br />
+
+https://webcontainer.catshoulder.dev/
+
 <br />
 
 [GitHub](https://github.com/sayjeyhi) · [Email](mailto:sayjeyhi@gmail.com) · [LinkedIn](https://www.linkedin.com/in/jafar-rezaei/)
