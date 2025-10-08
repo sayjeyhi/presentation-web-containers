@@ -58,7 +58,7 @@ background: linear-gradient(to right, #BECF24 0%, #95E6FF 50%, #CF8377 100%);
 
 <span class="text-base text-green-400">By night</span>, I'm OSS lover, book writer, 3D enthusiast, game developer.
 
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M3 2H2v1h1Zm0 0h6V1H3Zm-3 8h1V8H0Zm1 1h3v-1H1Zm3 1h6v-1H4ZM1 8h1V3H1Zm3 0h1V7H4ZM3 7h1V5H3Zm2 2h2V8H5Zm5 2h1v-1h-1Zm-1-1h1V8H9ZM5 5h1V4H5Zm2 2h1V6H7ZM6 4h1V3H6Zm2 2h1V5H8Zm2 2h1V3h-1ZM9 3h1V2H9Zm0 0"/></svg>
+<svg class="text-gray-500" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M3 2H2v1h1Zm0 0h6V1H3Zm-3 8h1V8H0Zm1 1h3v-1H1Zm3 1h6v-1H4ZM1 8h1V3H1Zm3 0h1V7H4ZM3 7h1V5H3Zm2 2h2V8H5Zm5 2h1v-1h-1Zm-1-1h1V8H9ZM5 5h1V4H5Zm2 2h1V6H7ZM6 4h1V3H6Zm2 2h1V5H8Zm2 2h1V3h-1ZM9 3h1V2H9Zm0 0"/></svg>
 
 </div>
 
@@ -435,6 +435,46 @@ What makes it different?
 
 <div class="flex items-center justify-center mt-8 text-blue-400 text-base relative right-[-5px]">
 [Limitations]
+</div>
+
+---
+
+# WC vs Cloud VM
+What makes it different?
+
+<div class="grid grid-cols-2 mt-12 h-70 gap-4 text-left text-sm text-gray-400 bg-white/10 p-6 rounded-lg">
+
+<div>
+  <img class="rounded-none" src="https://webcontainers.io/img/theme/webcontainer_api-logo-dark-blackwhite.svg"/>
+
+<v-click>
+  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
+    <svg class="scale-y-[-1] text-red-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
+
+     Limited access to local resources
+  </div>
+</v-click>
+</div>
+
+
+<div class="border-l-2 border-dashed border-white/20 pl-8">
+  <div class="flex gap-4 items-center justify-start">
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><!-- Icon from Cyber free icons by Streamline - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M22.5 5.5H.5v6h22zm-4-4h-14l-4 4h22zm1 6v2m-2-2v2m-2-2v2"/><path d="M4.75 7.25L3.5 8.5l1.25 1.25L6 8.5zM22.5 11.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 13.25L3.5 14.5l1.25 1.25L6 14.5zM22.5 17.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2"/><path d="M4.75 19.25L3.5 20.5l1.25 1.25L6 20.5z"/></g></svg>
+    <strong class="text-xl text-white!">VMs, Servers</strong>
+  </div>
+
+<v-click>
+  <div class="flex flex-col gap-8 items-center text-center mt-16 text-gray-300">
+    <svg class="text-green-500" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2v5H1V6h1V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"/></svg>
+
+    Can be extended by needs
+  </div>
+</v-click>
+</div>
+</div>
+
+<div class="flex items-center justify-center mt-8 text-blue-400 text-base relative right-[-5px]">
+[power]
 </div>
 
 ---
@@ -829,6 +869,9 @@ https://www.solidjs.com/tutorial
 
 # Real world examples
 
+<br/>
+<br/>
+
 - **[bolt.new](https://bolt.new/)**: Full-stack development environment
 - **frame work tutorials**: [Nuxt](https://learn.nuxt.com/en), [solidjs](https://www.solidjs.com/tutorial), [svelte](https://svelte.dev/tutorial), [angular](https://angular.dev/tutorials/first-app)
 - **online editors**: StackBlitz, GitHub Codespaces
@@ -845,8 +888,9 @@ https://stackblitz.com/edit/webcontainer-fst-demo?file=main.js
 ---
 
 # Getting Started
-How can I start using it?
 
+<div class="-mt-4 grid grid-cols-2 gap-4 text-left text-sm text-gray-400">
+<div>
 <div class="flex gap-2 items-center text-gray-400 mt-12">
 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M4 12h3v-1H6V6h1V5H4v1h1v5H4Zm-2-1h2v-1H2Zm-2-1h2V9H1V4h1V3H0Zm7 1h2v-1H7ZM2 5h2V4H2Zm0-2h2V2H2Zm7 7h2V3H9v1h1v5H9ZM7 5h2V4H7ZM4 2h3V1H4Zm3 1h2V2H7Zm0 0"/></svg> 
 Installation
@@ -856,9 +900,11 @@ Installation
 npm i @webcontainer/api
 ```
 
+</div>
+<div>
 <div class="flex gap-2 items-center text-gray-400 mt-12">
-<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M0 12h3v-1H1V9H0Zm3-1h1v-1H3ZM1 9h1V8H1Zm3 1h1V9H4ZM2 8h1V7H2Zm3 1h1V8H5ZM3 7h1V6H3Zm3 1h1V7H6ZM4 6h1V5H4Zm3 1h1V6H7ZM5 5h1V4H5Zm1 1h1V5H6Zm2 2h3V6h-1v1H8ZM4 4h1V2h1V1H4Zm3 0h1V3H7Zm1 1h1V4H8ZM6 3h1V2H6Zm3 3h1V5H9ZM8 3h1V2h1V1H8Zm1 1h2V2h-1v1H9Zm0 0"/></svg>
-Start your first WebContainer:
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M0 12h3v-1H1V9H0Zm3-1h1v-1H3ZM1 9h1V8H1Zm3 1h1V9H4ZM2 8h1V7H2Zm3 1h1V8H5ZM3 7h1V6H3Zm3 1h1V7H6ZM4 6h1V5H4Zm3 1h1V6H7ZM5 5h1V4H5Zm1 1h1V5H6Zm2 2h3V6h-1v1H8ZM4 4h1V2h1V1H4Zm3 0h1V3H7Zm1 1h1V4H8ZM6 3h1V2H6Zm3 3h1V5H9ZM8 3h1V2h1V1H8Zm1 1h2V2h-1v1H9Zm0 0"/></svg>
+  Start your first WebContainer:
 </div>
 
 ```javascript
@@ -868,10 +914,13 @@ import { WebContainer } from '@webcontainer/api';
 const webcontainerInstance = await WebContainer.boot();
 ```
 
----
+</div>
+</div>
 
-
-# ⚙️ Core WC API
+<div class="flex gap-2 items-center text-gray-400 mt-12">
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 8 8"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M4 6H3v2h1Zm0 0h1V3H4ZM0 5h1V4H0Zm1 1h1V5H1Zm0-2h1V3H1Zm6 2h1V5H7ZM5 3h1V1H5Zm2 1h1V3H7Zm1 1h1V4H8Zm0 0"/></svg>
+  Mount files and start the process
+</div>
 
 ```javascript
 const wc = await WebContainer.boot()
@@ -886,7 +935,19 @@ await wc.mount({
 const process = await wc.spawn('node', ['index.js'])
 ```
 
+
+---
+
+
+# WC instance API
+
+
+<div class="mt-4 grid grid-cols-2 gap-4 text-left text-sm text-gray-400">
+
+<div>
+
 **Main methods on instance**
+
 - `boot(options?)`
 - `mount(tree, options?)`
 - `spawn(cmd, args?, options?)`
@@ -894,45 +955,109 @@ const process = await wc.spawn('node', ['index.js'])
 - `setPreviewScript(src, opts?)`
 - `teardown()`
 
+</div>
+<div>
+
+```javascript
+import { WebContainer } from '@webcontainer/api';
+
+// Call only once
+const webcontainerInstance = await WebContainer.boot();
+```
+
+</div>
+</div>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" class="absolute bottom-10 right-20 text-gray-500" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M10 12h1V9h-1V8H9V7H2V6H1V4H0v3h1v1h1v1h7v1h1Zm-5 0h1v-2H5Zm2 0h1v-1H7ZM2 6h1V5H2Zm6 5h1v-1H8ZM5 6h1V3H5V2H4V1H0v2h4v1h1ZM3 5h1V4H3Zm0 0"/></svg>
+
+
 ---
 
 # File System
-```javascript
-await wc.fs.writeFile('/hello.txt', 'Hi WebContainer!')
-const files = await wc.fs.readdir('/')
-```
 
 
-<br/>
-<br/>
+<div class="mt-4 grid grid-cols-2 gap-4 text-left text-sm text-gray-400">
+
+<div>
+
+**File system control methods**
 
 - `readFile / writeFile / readdir`
 - `mkdir / rm / rename`
 - `watch(path, listener)`
 
+</div>
+
+```javascript
+// Write files
+await wc.fs.writeFile('/hello.txt', 'Hi WebContainer!')
+
+// Read directory
+const files = await wc.fs.readdir('/')
+```
+
+
+</div>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" class="absolute bottom-10 right-20 text-gray-500" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M1 12h10v-1h-1V9h1V1H1v1h9v6H1V2H0v9h1V9h8v2H1Zm2-6h6V5H3Zm0-2h6V3H3Zm0 0"/></svg>
+
+
 ---
 
 # Process control
 
-```javascript
-const p = await wc.spawn('npm', ['run', 'dev'])
-p.output.pipeTo(new WritableStream({ write: console.log }))
-```
 
-<br/>
-<br/>
+<div class="mt-4 grid grid-cols-2 gap-4 text-left text-sm text-gray-400">
+
+<div>
+
+**Control and read terminal process**
+
 
 - `kill()`
 - `resize({ cols, rows })`
 - `exit` — Promise for exit code
+
+</div>
+
+
+```javascript
+// Spwan a process
+const p = await wc.spawn('npm', ['run', 'dev'])
+
+// Write result to console log
+p.output.pipeTo(new WritableStream({ write: console.log }))
+```
+
+
+</div>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" class="absolute bottom-10 right-20 text-gray-500" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M2 10h7V3H8v6H2ZM0 8h7V1H2v1H1v1H0Zm4 4h7V5h-1v6H4ZM2 6V5h3v1Zm0-2V3h3v1Zm0 0"/></svg>
+
+---
+
+# Other alternatives
+Is there any alternative to WebContainer?
+
+- https://webvm.io/
+- https://runno.dev/
+- https://copy.sh/v86/
+
 
 ---
 layout: center
 class: text-center
 ---
 
-# We learned about SharedArrayBuffer
-But building WC also requires `Web Assembly` besides SharedArrayBuffer.
+<div class="flex items-center justify-center text-gray-500 mb-5">
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 12 12"><!-- Icon from Dinkie Icons by atelierAnchor - https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE --><path fill="currentColor" d="M3 12h5v-2h1V9h1V8h1V4h-1V3H9v2h1v2H9v1H8v1H6v1H5V9H3V8H2V7H1V5h1V3H1v1H0v4h1v1h1v1h1Zm1-4h3V7H4ZM2 3h1V2H2Zm1 4h1V6h1V5h1v1h1v1h1V4H7V3H4v1H3Zm0-5h2V1H3Zm3 0h2V1H6Zm2 1h1V2H8Zm0 0"/></svg>
+</div>
+
+# Learned SharedArrayBuffer
+But building WC also requires `Web Assembly`
 
 ---
 
@@ -945,6 +1070,9 @@ How SAB is used in WebAssembly?
 // create shared memory
 const memory = new WebAssembly.Memory({ shared: true, initial: 10, maximum: 100 });
 ```
+
+<br/>
+
 use it in 2 wasm instances:
 ```javascript
 // share it with multiple wasm instances
@@ -995,181 +1123,33 @@ Here we used C++ to create a simple "Hello, World!" program and compile it to We
 
 ---
 
-# How Web Containers Work
-
-<br/>
-
-<div class="grid ~ cols-2 gap-4">
-<div>
-
-
-## Core Technologies
-
-<br/>
-
-- WebAssembly (Wasm)
-- Browser APIs
-- Virtualization
-- File System Simulation
-
-
-
-</div>
-<div>
-
-
-
-## Key Features
-
-<br/>
-
-- In-browser Execution
-- Native-like Performance
-- Secure Sandboxing
-- Cross-platform Support
-
-
-
-</div>
-</div>
-
-
-
----
-
-# Use Cases for Web Containers
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-
-
-## Development
-- Interactive coding
-- Rapid prototyping
-- Code sharing
-- Live collaboration
-
-
-</div>
-<div>
-
-
-
-## Education
-
-- Programming tutorials
-- Interactive learning
-- Instant setup
-- Real-time feedback
-
-
-
-</div>
-</div>
-
----
-
-# Advantages of Web Containers
-
-- No local setup required
-- Instant access from any device
-- Consistent environment
-- Easy collaboration
-- Resource efficiency
-
-
-
----
-
-# Limitations of Web Containers
-
-- Browser dependency
-- Performance constraints
-- Limited access to local resources
-- Internet connectivity required
-- Complex architecture
-
-
-
----
-
-# Feature environment
-
-Preview review and create PR in the browser
-
-https://github.com/sayjeyhi/ui.pr.new
-
----
-
-# Web Containers Deep Dive
-
-- **Architecture**
-  - Browser runtime
-  - Virtual file system
-  - Network simulation
-  - Process management
-
-- **Integration**
-  - IDE features
-  - Git support
-  - Package management
-
----
-
 # WASM Beyond the Browser
-How the future might look like?
 
+WASI interface allows WebAssembly to run outside the browser.
+
+<v-click>
+
+<img src="/Wasi%209.png" class="w-[60%] mx-auto mt-8"/>
+
+</v-click>
+
+<!--
 “Cool, but we’re not doing any browser-based rendering.”
 
 Or worse:
 “We’re not a gaming company.”
+-->
 
 ---
 
-# WASM Beyond the Browser
+<img src="/Wasi%2010.png" class="w-[60%] mx-auto"/>
+
 
 ---
 
-# DockerCon 2023
+# WASM Runtimes and Compilers
 
-<div>
-<img class="w-[70%]" src="/docker-web-assembly.59.21.png" />
-</div>
-
-3rd generation of containers: WebAssembly
-
----
-
-Change is hard at first, messy in the middle and gorgeous at the end.
-with web assembly, web containers and shared array buffer, the web is getting gorgeous!
-
----
-
-<div>
-<img class="w-[70%]" src="/docker-wasi-wasm.51.08.png" />
-</div>
-
-Sometimes someone builds something and people say "It can do that as well" and "It can do the other thing as well"
-
----
-
-<img src="https://github.com/container2wasm/container2wasm/raw/main/docs/images/ubuntu-wasi-on-browser.png">
-
-https://github.com/container2wasm/container2wasm
-
----
-
-# WebAssembly 3.0 Spec
-Released September 2025
-
-<div>
-<img class="w-[70%]" src="/wasm3_0.png" />
-</div>
-
----
-
-# WASM Runtimes
+<br/>
 
 - **[WasmEdge](https://wasmedge.org/)**: A lightweight, high-performance WebAssembly runtime optimized for edge computing.
   - 100x faster startup compared to Linux containers.
@@ -1179,36 +1159,98 @@ Released September 2025
 - **[Wasmtime](https://github.com/bytecodealliance/wasmtime)**: A standalone runtime for WebAssembly and WASI, built by the Bytecode Alliance.
 - **[Wasmer](https://wasmer.io/)**: A universal WebAssembly runtime that can run WASM modules anywhere.
 - **Mozilla Wasm Agents**: Each Wasm Agent compiles into a WASM binary, and executed directly in the browser’s WASM runtime.
+- **[Container to WASM](https://github.com/container2wasm/container2wasm)**: is a container-to-wasm image converter that enables to run the container on WASM.
 
 ---
 
-# resources
+<img src="https://github.com/container2wasm/container2wasm/raw/main/docs/images/ubuntu-wasi-on-browser.png">
+
+---
+
+<div class="grid grid-cols-2 gap-1 text-left text-sm text-gray-400">
+  <div>
+  
+  # WebAssembly 3.0 Spec
+  Released September 2025
+  
+  <div>
+  <img class="w-[70%]" src="/wasm3_0.png" />
+  </div>
+  </div>
+
+  <div>
+  <img class="w-[70%]" src="/docker-wasi-wasm.51.08.png" />
+  </div>
+
+  <div>
+  
+  **DockerCon 2023**
+
+  <img class="w-[70%]" src="/docker-web-assembly.59.21.png" />
+  </div>
+
+  <div>
+
+  3rd generation of containers: WebAssembly
+
+<br/>
+<br/>
+
+# Killing Kubernetes?!
+
+  </div>
+
+</div>
+
+
+<!--
+Sometimes someone builds something and people say "It can do that as well" and "It can do the other thing as well"
+-->
+
+
+---
+
+# Resources
+
+<div class="grid grid-cols-2 gap-4 text-left text-sm text-gray-400">
+<div>
 
 - https://webcontainers.io/
-- Lin Clark from Mozilla has a great cartoon intro to ArrayBuffers and SharedArrayBuffers:
-https://hacks.mozilla.org/2017/06/a-cartoon-intro-to-arraybuffers-and-sharedarraybuffers/
-
+- [Lin Clark from Mozilla [@codecartoons]](https://hacks.mozilla.org/2017/06/a-cartoon-intro-to-arraybuffers-and-sharedarraybuffers/)
 - https://webassembly.org/news/2025-09-17-wasm-3.0/
 - [The Universal Microservices Architecture (UMA) | White Paper](https://docs.google.com/document/d/1MHj8ruFsGsZTNfMayP9Xck2qAMnXu-qfjTs0zWjP8OE/edit?source=collection_home_page----a64ecaa04f0c----------------------------------------&tab=t.0#heading=h.lldls594wja3)
 - [Why Device independent Matters More Than Ever](https://medium.com/the-rise-of-device-independent-architecture/why-device-independence-matters-more-than-ever-27afe78a0a61)
 - https://github.com/bytecodealliance/wasmtime
 - https://www.youtube.com/watch?v=7553XZ0T6pM
+</div>
+<div>
+
 - https://medium.com/wasm-radar/i-beg-you-please-stop-thinking-webassembly-is-only-for-the-web-a24f502cde78
 - https://www.youtube.com/watch?v=KHy3XIlGIJ8
 - https://hacks.mozilla.org/2019/08/webassembly-interface-types/
 - [COEP COOP CORP CORS CORB - CRAP that's a lot of new stuff!](https://scotthelme.co.uk/coop-and-coep/)
 - [Cloudflare workers Performance and timers](https://developers.cloudflare.com/workers/runtime-apis/performance/)
 
+</div>
+
+... 
+
+</div>
+
 ---
 layout: center
 class: text-center
 ---
 
-# Questions?
+<div class="flex items-center justify-center mb-12">
+<img class=" w-24 h-24 rounded-full grayscale" src="/openart-video_cf97c9b8_1759827505833.gif" />
+</div>
 
-Thank you for your attention!
+# Thank y'all!
+
+Reach me out if you have any question.
 
 <br />
 <br />
 
-[GitHub](https://github.com/sayjeyhi) · [Contact](mailto:sayjeyhi@gmail.com)
+[GitHub](https://github.com/sayjeyhi) · [Email](mailto:sayjeyhi@gmail.com) · [LinkedIn](https://www.linkedin.com/in/jafar-rezaei/)
